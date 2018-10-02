@@ -12,8 +12,8 @@ class Foo extends React.Component {
   render() {
     return (
       <div>
-		  <h1>Showcase code splitting</h1>
-		  <LoadableBar />
+        <h1>Showcase code splitting</h1>
+        <LoadableBar />
       </div>
     );
   }
