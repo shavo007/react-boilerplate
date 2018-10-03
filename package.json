@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "format": "prettier --no-config  --write '**/**.js'",
+    "format": "prettier  --write '**/**.js'",
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "test": "jest",
     "test:watch": "jest  --watch",

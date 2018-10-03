@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import Foo from "./Foo";
-import BasicExample from "./BasicExample";
+import React, { Component } from 'react';
+import Foo from './Foo';
+import BasicExample from './BasicExample';
 
 class App extends Component {
   render() {

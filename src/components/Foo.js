@@ -1,8 +1,8 @@
-import Loadable from "react-loadable";
-import React, { Component } from "react";
+import Loadable from 'react-loadable';
+import React, { Component } from 'react';
 
 const LoadableBar = Loadable({
-  loader: () => import("./Bar"),
+  loader: () => import('./Bar'),
   loading() {
     return <div>Loading...</div>;
   }

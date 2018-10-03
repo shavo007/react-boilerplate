@@ -1,36 +1,36 @@
-const CleanWebpackPlugin = require("clean-webpack-plugin");
-const HtmlWebPackPlugin = require("html-webpack-plugin");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const HtmlWebPackPlugin = require('html-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin;
-const PreloadWebpackPlugin = require("preload-webpack-plugin");
+const PreloadWebpackPlugin = require('preload-webpack-plugin');
 
-const path = require("path");
+const path = require('path');
 
 module.exports = {
   entry: {
-    main: "./src/index.js"
+    main: './src/index.js'
   },
   output: {
-    filename: "[name].[chunkhash:8].js",
-    path: path.resolve("./dist"),
-    publicPath: "/"
+    filename: '[name].[chunkhash:8].js',
+    path: path.resolve('./dist'),
+    publicPath: '/'
   },
   optimization: {
     splitChunks: {
       cacheGroups: {
         vendors: {
           test: /[\\/]node_modules[\\/]/i,
-          chunks: "all"
+          chunks: 'all'
         },
         commons: {
-          name: "commons",
-          chunks: "initial",
+          name: 'commons',
+          chunks: 'initial',
           minChunks: 2
         }
       }
     },
     runtimeChunk: {
-      name: "runtime"
+      name: 'runtime'
     }
   },
   module: {
@@ -38,19 +38,19 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
-        use: [{ loader: "babel-loader" }]
+        use: [{ loader: 'babel-loader' }]
       },
       {
         test: /\.s(a|c)ss$/,
         use: [
           {
-            loader: "style-loader"
+            loader: 'style-loader'
           },
           {
-            loader: "css-loader"
+            loader: 'css-loader'
           },
           {
-            loader: "sass-loader"
+            loader: 'sass-loader'
           }
         ]
       }
@@ -58,13 +58,13 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: "index.html"
+      template: 'index.html'
     }),
-    new CleanWebpackPlugin(["dist"]),
+    new CleanWebpackPlugin(['dist']),
     new BundleAnalyzerPlugin(),
     new PreloadWebpackPlugin({
-      rel: "preload",
-      include: ["main", "vendors"]
+      rel: 'preload',
+      include: ['main', 'vendors']
     })
   ]
 };

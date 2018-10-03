@@ -1,6 +1,6 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Loadable from "react-loadable";
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Loadable from 'react-loadable';
 
 const Home = () => (
   <div>
@@ -9,7 +9,7 @@ const Home = () => (
 );
 
 const Topics = Loadable({
-  loader: () => import("./Topics"),
+  loader: () => import('./Topics'),
   loading() {
     return <div>Loading...</div>;
   }
