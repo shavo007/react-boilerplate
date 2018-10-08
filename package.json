@@ -60,7 +60,7 @@
     "prettier-eslint": "8.8.2",
     "react-test-renderer": "16.5.2",
     "sass-loader": "7.1.0",
-    "style-loader": "0.23.0",
+    "style-loader": "0.23.1",
     "webpack": "4.20.2",
     "webpack-bundle-analyzer": "3.0.2",
     "webpack-cli": "3.1.1",
