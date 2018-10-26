@@ -25,7 +25,8 @@
     "setupTestFrameworkScriptFile": "./test/enzyme.setup.js",
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
-    ]
+    ],
+    "testEnvironment": "node"
   },
   "author": "",
   "license": "ISC",
