@@ -2115,7 +2115,7 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js@^2.4.0, core-js@^2.5.0:
+core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
   integrity sha512-RszJCAxg/PP6uzXVXL6BsxSXx/B05oJAQ2vkJRjyjrEcNVycaqOmNb5OTxZPE3xa5gwZduqza6L9JOCenh/Ecw==
@@ -6694,11 +6694,12 @@ postcss@^6.0.1, postcss@^6.0.23:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-preload-webpack-plugin@3.0.0-beta.2:
-  version "3.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/preload-webpack-plugin/-/preload-webpack-plugin-3.0.0-beta.2.tgz#8daa06b9f43aad7e4fccd3f52df2cb01760a86f7"
-  integrity sha512-A3OVv3BOyJNtGf1eSu4kS82K99L0dOq+LE9rWBr7ceNPW9UgUrk2lLU5R8hTBNaPXujzVmId6sk/9tvlXEr3uA==
+preload-webpack-plugin@3.0.0-beta.3:
+  version "3.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/preload-webpack-plugin/-/preload-webpack-plugin-3.0.0-beta.3.tgz#945990d0cd90d3ecb15a2f6fc59f742e39930db6"
+  integrity sha512-pIRna/JagOd+ci64d84SfDH4bjKsM632OQ/4JIBk7Q8Kr6VH2X+7q5q3HrTilKpMzzO3ib9kC7rs1B0KXJTa6Q==
   dependencies:
+    core-js "^2.5.7"
     url-parse "^1.4.3"
 
 prelude-ls@~1.1.2:
