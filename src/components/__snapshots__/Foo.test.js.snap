@@ -5,6 +5,14 @@ exports[`should match snapshot 1`] = `
   <h1>
     Showcase code splitting
   </h1>
-  <LoadableComponent />
+  <React.Suspense
+    fallback={
+      <div>
+        Loading...
+      </div>
+    }
+  >
+    <React.Lazy />
+  </React.Suspense>
 </div>
 `;

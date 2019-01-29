@@ -1,19 +1,15 @@
-import Loadable from 'react-loadable';
-import React, { Component } from 'react';
+import React, { Suspense, lazy, Component } from 'react';
 
-const LoadableBar = Loadable({
-  loader: () => import('./Bar'),
-  loading() {
-    return <div>Loading...</div>;
-  }
-});
+const LoadableBar = lazy(() => import('./Bar'));
 
 class Foo extends React.Component {
   render() {
     return (
       <div>
         <h1>Showcase code splitting</h1>
-        <LoadableBar />
+        <Suspense fallback={<div>Loading...</div>}>
+          <LoadableBar />
+        </Suspense>
       </div>
     );
   }
