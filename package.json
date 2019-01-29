@@ -22,7 +22,9 @@
     ]
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "./test/enzyme.setup.js",
+    "setupFilesAfterEnv": [
+      "./test/enzyme.setup.js"
+    ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
