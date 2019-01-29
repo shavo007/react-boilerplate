@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 const Home = () => (
   <div>
@@ -21,21 +21,24 @@ const BasicExample = () => (
       <div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link exact to="/">
+              Home
+            </Link>
           </li>
           <li>
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/topics">Topics</Link>
+            <Link to="/topics">Lazy loading Topics</Link>
           </li>
         </ul>
 
         <hr />
-
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/topics" component={LoadableTopics} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/topics" component={LoadableTopics} />
+        </Switch>
       </div>
     </Suspense>
   </Router>
