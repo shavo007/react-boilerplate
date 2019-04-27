@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Bar extends Component {
-  render() {
-    return (
-      <div>
-        <h2>Foo - Bar</h2>
-      </div>
-    );
-  }
-}
+const Bar = () => (
+  <div>
+    <h2>Lazy loaded Foo - Bar</h2>
+  </div>
+);
 
 export default Bar;

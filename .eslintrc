@@ -1,0 +1,26 @@
+{
+  "extends": ["airbnb","plugin:prettier/recommended"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  },
+  "parser": "babel-eslint",
+  "globals": {
+    "afterAll": true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "jest": true,
+    "shallow": true
+  }
+}

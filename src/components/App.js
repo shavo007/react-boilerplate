@@ -1,16 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Foo from './Foo';
 import BasicExample from './BasicExample';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Foo />
-        <BasicExample />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div>
+    <Foo />
+    <BasicExample />
+  </div>
+);
 
 export default App;

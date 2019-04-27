@@ -1,7 +1,5 @@
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-  .BundleAnalyzerPlugin;
 const PreloadWebpackPlugin = require('preload-webpack-plugin');
 
 const path = require('path');
@@ -61,7 +59,6 @@ module.exports = {
       template: 'index.html'
     }),
     new CleanWebpackPlugin(['dist']),
-    new BundleAnalyzerPlugin(),
     new PreloadWebpackPlugin({
       rel: 'preload',
       include: ['main', 'vendors']
