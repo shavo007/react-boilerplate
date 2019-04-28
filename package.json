@@ -12,7 +12,8 @@
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "test": "jest",
     "test:watch": "jest  --watch",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "webpack-defaults": "webpack-defaults"
   },
   "lint-staged": {
     "src/**/*.js": [
@@ -42,6 +43,9 @@
     "babel-eslint": "10.0.1",
     "babel-jest": "24.7.1",
     "babel-loader": "8.0.5",
+    "babel-plugin-transform-imports": "1.5.1",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.24",
+    "bundle-buddy": "0.2.1",
     "clean-webpack-plugin": "1.0.1",
     "css-loader": "1.0.1",
     "enzyme": "3.9.0",

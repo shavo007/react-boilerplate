@@ -9,7 +9,7 @@ module.exports = merge(common, {
   plugins: [
     new BundleAnalyzerPlugin({
       analyzerMode: 'static',
-      reportFilename: 'report.html'
+      reportFilename: '../report/report.html'
     })
   ]
 });
