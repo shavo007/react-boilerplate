@@ -17,6 +17,10 @@ Reports are generated using webpack-bundle-analyser and bundle-buddy
 
 To run bundle buddy `yarn build && npx bundle-buddy dist/*.map`
 
+## Bundlesize
+
+Run `yarn check-size`
+
   
 
 
