@@ -11,5 +11,10 @@ module.exports = merge(common, {
       analyzerMode: 'static',
       reportFilename: '../report/report.html'
     })
-  ]
+  ],
+  performance: {
+    maxAssetSize: 200000,
+    maxEntrypointSize: 200000,
+    hints: 'error'
+  }
 });

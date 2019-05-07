@@ -61,7 +61,8 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new PreloadWebpackPlugin({
       rel: 'preload',
-      include: ['main', 'vendors']
+      include: 'initial'
+      // include: ['main', 'vendors']
     })
   ]
 };
