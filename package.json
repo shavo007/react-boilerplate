@@ -14,7 +14,9 @@
     "test:watch": "jest  --watch",
     "lint": "eslint ./src",
     "webpack-defaults": "webpack-defaults",
-    "check-size": "bundlesize"
+    "check-size": "bundlesize",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "lint-staged": {
     "src/**/*.js": [
@@ -85,7 +87,11 @@
     "webpack-bundle-analyzer": "3.3.2",
     "webpack-cli": "3.3.2",
     "webpack-dev-server": "3.3.1",
-    "webpack-merge": "4.2.1"
+    "webpack-merge": "4.2.1",
+    "@storybook/react": "5.0.11",
+    "@storybook/addon-actions": "5.0.11",
+    "@storybook/addon-links": "5.0.11",
+    "@storybook/addons": "5.0.11"
   },
   "dependencies": {
     "react": "16.8.6",

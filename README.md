@@ -21,7 +21,9 @@ To run bundle buddy `yarn build && npx bundle-buddy dist/*.map`
 
 Run `yarn check-size`
 
-  
+## Storybook
+
+Run [storybook](https://storybook.js.org/docs/basics/introduction/) by calling `yarn storybook` 
 
 
 ## Reading
