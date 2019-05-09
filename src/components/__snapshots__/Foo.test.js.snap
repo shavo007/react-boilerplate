@@ -5,6 +5,18 @@ exports[`should match snapshot 1`] = `
   <h1>
     Showcase code splitting
   </h1>
+  <Button
+    disabled={false}
+    isLoading={false}
+    isSelected={false}
+    kind="primary"
+    onClick={[Function]}
+    overrides={Object {}}
+    shape="default"
+    size="default"
+  >
+    Click me to demo dynamic import
+  </Button>
   <React.Suspense
     fallback={
       <div>

@@ -1,4 +1,4 @@
-# React boilerplate
+# React boilerplate with ubers design system
 
 > Showcases react, react router and lazy loading with webpack
 
