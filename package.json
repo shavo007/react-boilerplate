@@ -32,7 +32,7 @@
     },
     {
       "path": "./dist/vendors~main.*.js",
-      "maxSize": "50 kB"
+      "maxSize": "65 kB"
     }
   ],
   "jest": {

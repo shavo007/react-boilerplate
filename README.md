@@ -25,6 +25,10 @@ Run `yarn check-size`
 
 Run [storybook](https://storybook.js.org/docs/basics/introduction/) by calling `yarn storybook` 
 
+## Code splitting by route and dynamic imports
+
+![](img/code-splitting-demo.gif)
+
 
 ## Reading
 
