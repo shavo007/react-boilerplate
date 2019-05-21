@@ -60,7 +60,7 @@
     "babel-plugin-transform-imports": "1.5.1",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "bundle-buddy": "0.2.1",
-    "bundlesize": "0.17.1",
+    "bundlesize": "0.17.2",
     "clean-webpack-plugin": "2.0.2",
     "css-loader": "1.0.1",
     "enzyme": "3.9.0",
