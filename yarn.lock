@@ -3234,12 +3234,13 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-baseui@6.19.1:
-  version "6.19.1"
-  resolved "https://registry.yarnpkg.com/baseui/-/baseui-6.19.1.tgz#29fec54cd023951c47209b2899140784f2fccc99"
-  integrity sha512-cioHx5szPShDsK3Dw+FplWKBS2A+Gd1agdTcXak6o5ZpKkhHBqFYrpWHnbV6PYeQNZqFWFdvYvoFC5nEkyK3OQ==
+baseui@6.19.3:
+  version "6.19.3"
+  resolved "https://registry.yarnpkg.com/baseui/-/baseui-6.19.3.tgz#4ec2f2c44c37167f917e36657026f945cc5915e9"
+  integrity sha512-aVfgXC3v7AkEP3RkO6n25ke3v/AoQSXCTT31I/wqNCEHLZcwJrWWl0PHCD8qsyJ1jFBHUDJ7OM1FRIfqbxLjqg==
   dependencies:
     date-fns "2.0.0-alpha.27"
+    dayjs "^1.8.14"
     focus-trap "^5.0.0"
     just-extend "^4.0.2"
     memoize-one "^5.0.0"
@@ -4714,6 +4715,11 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
+
+dayjs@^1.8.14:
+  version "1.8.14"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.14.tgz#43e4f62830c2c3342c3fcd25934dc9162dbe6f38"
+  integrity sha512-AVhDmRTe541iWirnoeFSSDDGvCT6HWaNQ4z2WmmzXMGZj6ph6ydao2teKq/eUtR43GPJXlYFD+C/SotG1P9wUQ==
 
 debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
