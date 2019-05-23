@@ -3234,10 +3234,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-baseui@6.19.3:
-  version "6.19.3"
-  resolved "https://registry.yarnpkg.com/baseui/-/baseui-6.19.3.tgz#4ec2f2c44c37167f917e36657026f945cc5915e9"
-  integrity sha512-aVfgXC3v7AkEP3RkO6n25ke3v/AoQSXCTT31I/wqNCEHLZcwJrWWl0PHCD8qsyJ1jFBHUDJ7OM1FRIfqbxLjqg==
+baseui@6.19.4:
+  version "6.19.4"
+  resolved "https://registry.yarnpkg.com/baseui/-/baseui-6.19.4.tgz#6c5ddeaae7f96049e0948c257f3a46a6ea5e34e9"
+  integrity sha512-oiru/sVJvA0XXHwD7hV4Gri6R5w0Q+bxjpr99TP8UUT9t9g2bdsZ7U7uRz2CeRdJ6tc6kBaDcUDEGPXPUzxLtw==
   dependencies:
     date-fns "2.0.0-alpha.27"
     dayjs "^1.8.14"
