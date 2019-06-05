@@ -64,7 +64,7 @@
     "clean-webpack-plugin": "3.0.0",
     "css-loader": "2.1.1",
     "enzyme": "3.10.0",
-    "enzyme-adapter-react-16": "1.12.1",
+    "enzyme-adapter-react-16": "1.14.0",
     "enzyme-to-json": "3.3.5",
     "eslint": "5.6.1",
     "eslint-config-airbnb": "17.1.0",
