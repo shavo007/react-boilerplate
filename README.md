@@ -4,6 +4,8 @@
 
 [![CircleCI](https://circleci.com/gh/shavo007/react-boilerplate.svg?style=svg)](https://circleci.com/gh/shavo007/react-boilerplate)
 
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=shavo007/react-boilerplate)](https://dependabot.com)
+
 
 ## Webpack optimizations
 
