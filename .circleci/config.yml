@@ -35,5 +35,7 @@ jobs:
 
       # run tests!
       - run: yarn test
+      - store_test_results: 
+          path: test-results
       # build and check bundle size
       - run: yarn build && yarn check-size

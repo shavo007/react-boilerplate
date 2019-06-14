@@ -4,3 +4,5 @@ node_modules/
 # Project
 dist/
 report/
+test-results/
+junit.xml

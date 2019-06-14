@@ -10,7 +10,7 @@
     "build": "webpack --config webpack.prod.js",
     "format": "prettier  --write '**/**.js'",
     "start": "webpack-dev-server --open --config webpack.dev.js",
-    "test": "jest",
+    "test": "JEST_JUNIT_OUTPUT_DIR=./test-results/jest jest",
     "test:watch": "jest  --watch",
     "lint": "eslint ./src",
     "webpack-defaults": "webpack-defaults",
@@ -42,7 +42,11 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ],
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
   },
   "author": "",
   "license": "ISC",
@@ -53,6 +57,10 @@
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "@babel/preset-env": "7.4.5",
     "@babel/preset-react": "7.0.0",
+    "@storybook/addon-actions": "5.1.7",
+    "@storybook/addon-links": "5.1.7",
+    "@storybook/addons": "5.1.7",
+    "@storybook/react": "5.1.7",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
     "babel-jest": "24.8.0",
@@ -76,6 +84,7 @@
     "html-webpack-plugin": "3.2.0",
     "husky": "2.4.1",
     "jest": "24.8.0",
+    "jest-junit": "^6.4.0",
     "lint-staged": "8.2.1",
     "node-sass": "4.12.0",
     "preload-webpack-plugin": "3.0.0-beta.3",
@@ -88,11 +97,7 @@
     "webpack-bundle-analyzer": "3.3.2",
     "webpack-cli": "3.3.4",
     "webpack-dev-server": "3.7.1",
-    "webpack-merge": "4.2.1",
-    "@storybook/react": "5.1.7",
-    "@storybook/addon-actions": "5.1.7",
-    "@storybook/addon-links": "5.1.7",
-    "@storybook/addons": "5.1.7"
+    "webpack-merge": "4.2.1"
   },
   "dependencies": {
     "baseui": "6.21.1",
